@@ -37,7 +37,7 @@ Add `{fig-alt="Your alt text here"}` at the end of the markdown line to add uniq
 
 ![](https://mn.gov/portal/assets/primary-reversed-logo_tcm1077-265309.jpg){fig-alt="Option 2 - Logo for the State of Minnesota."}
 
-### Caption & alt text
+### Caption & Alt text
 
 This image will include a caption and alt text in the HTML.
 
