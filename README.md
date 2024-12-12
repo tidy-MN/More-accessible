@@ -18,7 +18,7 @@ Alt text (alternative text) are short descriptions added to images to describe t
 
 ### Images
 
-Both of the options below create the following HTML that includes the image with alternative (alt) text accessible to screen readers.
+Both of the options below will create HTML that includes alternative (alt) text accessible to screen readers.
 
 ```html
 <img src="https://mn.gov/portal/assets/primary-reversed-logo_tcm1077-265309.jpg" alt="Logo for the State of Minnesota.">
