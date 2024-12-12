@@ -4,9 +4,9 @@ Resources to improve accessibility
 
 **Contents**
 
-- Alt text
-    - For images
-    - For charts
+- [Alt text](https://github.com/tidy-MN/More-accessible/blob/main/README.md#alt-text-for-visuals-images-charts-figures)
+    - [For images](https://github.com/tidy-MN/More-accessible/blob/main/README.md#images)
+    - [For charts](https://github.com/tidy-MN/More-accessible/blob/main/README.md#charts)
 
 ## Alt text for visuals: images, charts, figures
 
@@ -56,7 +56,7 @@ This markdown will include the image with a caption below and alt text in the HT
 
 ---  
 
-## For charts
+## Charts
 
 Add `fig-alt` as a code chunk option like below:
 
