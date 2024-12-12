@@ -27,10 +27,16 @@ Both of the options below will create HTML that includes alternative (alt) text 
 #### Two options
 
 **Option 1**
-`![Option 1 - Logo for the State of Minnesota. ](https://mn.gov/portal/assets/primary-reversed-logo_tcm1077-265309.jpg)\`
+
+```markdown
+![Option 1 - Logo for the State of Minnesota. ](https://mn.gov/portal/assets/primary-reversed-logo_tcm1077-265309.jpg)\`
+```
 
 ### Option 2
-`![](https://mn.gov/portal/assets/primary-reversed-logo_tcm1077-265309.jpg){fig-alt="Option 2 - Logo for the State of Minnesota."}`
+
+```markdown
+![](https://mn.gov/portal/assets/primary-reversed-logo_tcm1077-265309.jpg){fig-alt="Option 2 - Logo for the State of Minnesota."}
+```
 
 ### Caption & Alt text
 
@@ -38,7 +44,9 @@ Captions should generally be different than the alt text or screen reader users 
 
 This markdown will include the image with a caption below and alt text in the HTML.
 
-`![I work here!](https://mn.gov/portal/assets/primary-reversed-logo_tcm1077-265309.jpg){fig-alt="Logo for the State of Minnesota."}`
+```markdown
+![I work here!](https://mn.gov/portal/assets/primary-reversed-logo_tcm1077-265309.jpg){fig-alt="Logo for the State of Minnesota."}`
+```
 
 ---  
 
@@ -46,11 +54,15 @@ This markdown will include the image with a caption below and alt text in the HT
 
 Add `fig-alt` as a code chunk option like below:
 
-```r
+```` markdown
+```{r}
 #| fig-alt: Scatterplot alt text...
-```
 
-```r
+```
+````
+
+```` markdown
+```{r}
 #| label: penguins-plot
 #| warning: false
 #| fig-alt: |
@@ -65,10 +77,12 @@ ggplot(penguins,
   geom_point() +
   scale_color_viridis_d()
 ```
+````
 
 <br>
 
 The resulting HTML is shown below and includes alternative (alt) text accessible to screen readers.
+
 
 ```html
 <img src="alt-text_files/figure-html/penguins-plot-1.png" alt="Scatterplot of bill depth vs. bill length for individual penguins, colored by species. The relationship is positive for each of the three species: Adelie, Chinstrap, and Gentoo.">
