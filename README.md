@@ -1,4 +1,4 @@
-# More accessible
+# More accessible ✨
 
 Resources to improve accessibility
 
