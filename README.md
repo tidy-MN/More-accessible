@@ -58,7 +58,7 @@ This markdown will include the image with a caption below and alt text in the HT
 
 ## Charts
 
-Add `fig-alt` as a code chunk option like below:
+You can add alt text to a chart or another visual produced by a code chunk by adding  `fig-alt:` to the options for that code chunk.
 
 ```` markdown
 ```{r}
