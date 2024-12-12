@@ -2,7 +2,13 @@
 
 Resources to improve accessibility
 
-## Image alt text
+**Contents**
+
+- Alt text
+    - For images
+    - For charts
+
+## Alt text for visuals: images, charts, figures
 
 Alt text (alternative text) are short descriptions added to images to describe the meaning of the visual. Assistive technology like screen readers can read the alt text out loud so users can hear a description of the visual content.
 
@@ -50,7 +56,7 @@ This markdown will include the image with a caption below and alt text in the HT
 
 ---  
 
-## Charts and tables
+## For charts
 
 Add `fig-alt` as a code chunk option like below:
 
