@@ -48,7 +48,7 @@ Both of the options below will create HTML that includes alternative (alt) text 
 
 Captions should generally be different than the alt text or screen reader users will hear the same text repeated twice.
 
-This markdown will include the image with a caption below and alt text in the HTML.
+This markdown will include the image with a caption and alt text in the HTML.
 
 ```markdown
 ![I work here!](https://mn.gov/portal/assets/primary-reversed-logo_tcm1077-265309.jpg){fig-alt="Logo for the State of Minnesota."}`
