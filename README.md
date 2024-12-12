@@ -63,8 +63,6 @@ Add `fig-alt` as a code chunk option like below:
 
 ```` markdown
 ```{r}
-#| label: penguins-plot
-#| warning: false
 #| fig-alt: |
 #|   Scatterplot of bill depth vs. bill length for individual penguins, colored by species.
 #|   The relationship is positive for each of the three species: Adelie, Chinstrap, and Gentoo.  
