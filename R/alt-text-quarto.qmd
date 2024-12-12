@@ -46,13 +46,12 @@ This image will include a caption below and alt text in the HTML.
 
 > Reference: https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/28-fig-alt/
 
+You can add alt text to a chart or another visual produced by a code chunk by adding fig-alt: to the options for that code chunk.
 
-Add `fig-alt` as a code chunk option like below:
 
 ```{{r}}
 #| fig-alt: Scatterplot alt text...
 ```
-
 
 ```{r}
 #| label: penguins-plot
