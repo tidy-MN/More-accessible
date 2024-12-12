@@ -36,7 +36,7 @@ Both of the options below create HTML that includes alternative (alt) text acces
 
 ### Caption & alt text
 
-This image will include a caption below and alt text in the HTML.
+This image will include a caption and alt text in the HTML.
 
 ![I work here!](https://mn.gov/portal/assets/primary-reversed-logo_tcm1077-265309.jpg){fig-alt="Logo for the State of Minnesota."}
 
