@@ -32,15 +32,15 @@ Both of the options below will create HTML that includes alternative (alt) text 
 
 #### Two options
 
-##### Option 1
+##### Option 1 - End slash
 
 Add a `\` at the end of the markdown line to use the caption text inside the `[ ]` as the alt text.
 
 ```markdown
-![Option 1 - Logo for the State of Minnesota. ](https://mn.gov/portal/assets/primary-reversed-logo_tcm1077-265309.jpg)\`
+![Option 1 - Logo for the State of Minnesota. ](https://mn.gov/portal/assets/primary-reversed-logo_tcm1077-265309.jpg)\
 ```
 
-##### Option 2
+##### Option 2 - `{fig-alt=}`
 
 Add `{fig-alt="Your alt text here"}` at the end of the markdown line to add unique alt text.
 
