@@ -2,6 +2,8 @@
 
 Resources to improve accessibility
 
+![Template for alt text: alt= "\[Chart type\] of \[type of data\] where \[reason for including chart\]"](alt-text-template.png)
+
 **Contents**
 
 - [Alt text](https://github.com/tidy-MN/More-accessible/blob/main/README.md#alt-text-for-visuals-images-charts-figures)
