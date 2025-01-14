@@ -2,7 +2,7 @@
 
 Resources to improve accessibility
 
-![Template for alt text: alt= "\[Chart type\] of \[type of data\] where \[reason for including chart\]"](alt-text-template.png)
+![Template for alt text: alt= "\(Chart type\) of \(type of data\) where \(reason for including chart\)"](alt-text-template.png)
 
 **Contents**
 
